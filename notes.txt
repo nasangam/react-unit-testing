@@ -1,0 +1,57 @@
+Unit Testing:
+
+Unite JS:
+1) fn
+-fn()
+-new fn()
+
+2) Components
+eg: User
+
+<User name="Nag"/>
+
+
+functions:
+1. return value
+i/p ==> f() ===> o/p
+
+2. Call another functions
+save(data){
+  localstorage.setItem("data", data);
+}
+
+mocks & spies ==> fucntions
+mock : proxy/dummy function
+spy: knows how many times a fucntion is called
+
+//window.load
+1. window.load = jest.fn()
+2. jest.spyOn(window, "load")
+
+3. Side Effects
+setTitle(etitl){
+   window.title = title;
+}
+
+
+What infra?
+- Assertion library? Matchers
+  Jasmine/Jest
+- Test Runner
+  Jest/Karma
+- Headless browser
+  JSDOM/PhantomJS
+- Coverage
+  Jest
+- Renderer: traverse, action, modify 
+  enzyme/React testing Library/ react test utils/cypress
+
+FB: Jest, React Testing Library
+Airbnb : enzyme, enzyme-adaptor-react16
+
+react-18
+
+
+
+
+
